@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 function Landing() {
-  document.getElementById("demo").innerHTML = "Hello";
   return (
     <div className="container">
       <p id="demo"></p>

@@ -1,0 +1,12 @@
+.city-one {
+  color: blue;
+  background-image: url("./images/Despina-b.jpg");
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+}

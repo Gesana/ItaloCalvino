@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import icon from "../../images/Despina-3.png";
 
-
-function CityOne(){
+function CityOne() {
   return (
-    <div>City 1</div>
-    )
+    <div className="city-one">
+      <img src={icon} alt="" />
+    </div>
+  );
 }
-
 
 export default CityOne;
