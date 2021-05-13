@@ -1,10 +1,9 @@
 import React from "react";
-import icon from "../../images/Despina-3.png";
 
 function CityOne() {
   return (
     <div className="city-one">
-      <img src={icon} alt="" />
+      <img src="../../images/Despina-3.png" alt="" />
     </div>
   );
 }
