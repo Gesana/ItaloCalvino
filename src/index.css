@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-size: 300px 100px;
+  background: url(../images/Despina-bcg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+:root {
+  --x: 0.5;
+  --y: 0.5;
+}
+.city-one {
+  width: 200px;
+  height: 200px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  border: 1px solid white;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.city-one img {
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-10% + 200px * var(--x)), calc(-10% * var(--y)));
+  transition: transform 0.1s;
 }
